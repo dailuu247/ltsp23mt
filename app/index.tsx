@@ -66,7 +66,8 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     alignItems: "center",
     marginHorizontal: 100,
-    marginVertical: 10
+    marginVertical: 10,
+    borderRadius: 10,
   },
   btnText: {
     fontSize: 24,
