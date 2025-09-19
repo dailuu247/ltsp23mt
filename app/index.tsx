@@ -16,6 +16,11 @@ export default function Index() {
         <Text style={styles.textHeader}>Tìm hiểu State của Component</Text>
         <Text style={{ color: "#000000" }}>VNTALKING.COM</Text>
       </View>
+      <TouchableOpacity
+        onPress={() => alert('Hello 23MT!')}
+        style={{ ...styles.btn, backgroundColor: 'blue' }}>
+        <Text style={styles.btnText}> Press me</Text>
+      </TouchableOpacity>
       <View style={styles.body}>
         <Text style={{ marginTop: 20, fontSize: 18, color: 'purple' }}>
           Nội dung con gửi: {childrendContent}
