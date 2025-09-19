@@ -18,8 +18,8 @@ export default function Index() {
       </View>
       <TouchableOpacity
         onPress={() => alert('Hello 23MT!')}
-        style={{ ...styles.btn, backgroundColor: 'blue' }}>
-        <Text style={styles.btnText}> Press me</Text>
+        style={styles.btn2}>
+        <Text style={styles.btnText}>Press me</Text>
       </TouchableOpacity>
       <View style={styles.body}>
         <Text style={{ marginTop: 20, fontSize: 18, color: 'purple' }}>
@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
     paddingVertical: 20,
-    borderColor: "blue",
-    borderWidth: 5
+    // borderColor: "blue",
+    // borderWidth: 5
   },
   btn: {
     backgroundColor: '#086972',
@@ -60,8 +60,16 @@ const styles = StyleSheet.create({
     margin: 10,
     borderRadius: 10,
   },
+  btn2: {
+    backgroundColor: '#000000',
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    alignItems: "center",
+    marginHorizontal: 100,
+    marginVertical: 10
+  },
   btnText: {
-    fontSize: 18,
+    fontSize: 24,
     color: '#fff',
   },
   text: {
